@@ -35,6 +35,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             localWeather.downloadLocalWeather { () -> () in
                 self.updateUI()
             }
+            localWeather.downloadLocalWeatherForcast{ () -> () in
+                self.updateUI()
+            }
         }
     }
     
@@ -42,13 +45,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         self.localityLbl.text = self.userLoc.locality
         let tempStr = "\(self.localWeather.temperature) \u{00B0}F"
         self.tempLbl.text = tempStr
-        let windString = "\(self.localWeather.windSpeed) mph @ \(self.localWeather.windDirection) deg"
+        let windString = "\(self.localWeather.windDirection) @ \(self.localWeather.windSpeed) mph"
         self.windLbl.text = windString
         self.sunriseLbl.text = self.localWeather.sunrise
         self.sunsetLbl.text = self.localWeather.sunset
         self.humidLbl.text = self.localWeather.humidity
         if let image = UIImage(named: "\(self.localWeather.icon)") {
             self.condImg.image = image
+        }
+        if self.localWeather.dailyForecast.count > 0 {
+            print("Ready for forecast UI")
         }
     }
     
@@ -62,6 +68,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.localWeather.downloadLocalWeather { () -> () in
                 print("Inside download weather completion")
                 self.updateUI()
+            }
+            self.localWeather.downloadLocalWeatherForcast { () -> () in
+                print("Inside download weather forecast")
             }
 
         }

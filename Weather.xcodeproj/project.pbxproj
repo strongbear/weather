@@ -17,6 +17,7 @@
 		ECC892A11CC40556009FCE9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC892A01CC40556009FCE9F /* Constants.swift */; };
 		ECC892A91CC4078A009FCE9F /* LocalWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC892A81CC4078A009FCE9F /* LocalWeatherData.swift */; };
 		ECC892AB1CC475AF009FCE9F /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC892AA1CC475AF009FCE9F /* UserLocation.swift */; };
+		ECE770DC1CDC2BB200063A05 /* MaterialImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE770DB1CDC2BB200063A05 /* MaterialImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		ECC892A01CC40556009FCE9F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ECC892A81CC4078A009FCE9F /* LocalWeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalWeatherData.swift; sourceTree = "<group>"; };
 		ECC892AA1CC475AF009FCE9F /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		ECE770DB1CDC2BB200063A05 /* MaterialImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				ECC892961CC40526009FCE9F /* LaunchScreen.storyboard */,
 				ECC8928E1CC40526009FCE9F /* Main.storyboard */,
+				ECE770DB1CDC2BB200063A05 /* MaterialImageView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				ECC892A91CC4078A009FCE9F /* LocalWeatherData.swift in Sources */,
 				ECC892931CC40526009FCE9F /* Weather.xcdatamodeld in Sources */,
 				ECC8928D1CC40526009FCE9F /* ViewController.swift in Sources */,
+				ECE770DC1CDC2BB200063A05 /* MaterialImageView.swift in Sources */,
 				ECC892AB1CC475AF009FCE9F /* UserLocation.swift in Sources */,
 				ECC8928B1CC40526009FCE9F /* AppDelegate.swift in Sources */,
 				ECC892A11CC40556009FCE9F /* Constants.swift in Sources */,
