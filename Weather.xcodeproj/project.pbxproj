@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E1D9621A32EDF79772E9F91 /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FAB6BE7C817811FE19F637 /* Pods_Weather.framework */; };
+		EC5F2AA41CDFDF4D004EAA4F /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F2AA31CDFDF4D004EAA4F /* MaterialView.swift */; };
 		ECC8928B1CC40526009FCE9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8928A1CC40526009FCE9F /* AppDelegate.swift */; };
 		ECC8928D1CC40526009FCE9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8928C1CC40526009FCE9F /* ViewController.swift */; };
 		ECC892901CC40526009FCE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC8928E1CC40526009FCE9F /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		28D09F1C5C1983A3411CAB04 /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
 		5AD48901D1152110109CABAE /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
 		B0FAB6BE7C817811FE19F637 /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5F2AA31CDFDF4D004EAA4F /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		ECC892871CC40526009FCE9F /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC8928A1CC40526009FCE9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC8928C1CC40526009FCE9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				ECC892961CC40526009FCE9F /* LaunchScreen.storyboard */,
 				ECC8928E1CC40526009FCE9F /* Main.storyboard */,
 				ECE770DB1CDC2BB200063A05 /* MaterialImageView.swift */,
+				EC5F2AA31CDFDF4D004EAA4F /* MaterialView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				ECC892AB1CC475AF009FCE9F /* UserLocation.swift in Sources */,
 				ECC8928B1CC40526009FCE9F /* AppDelegate.swift in Sources */,
 				ECC892A11CC40556009FCE9F /* Constants.swift in Sources */,
+				EC5F2AA41CDFDF4D004EAA4F /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

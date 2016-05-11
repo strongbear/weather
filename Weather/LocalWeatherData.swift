@@ -245,6 +245,13 @@ class LocalWeatherData: NSObject {
                                 self._dailyForecast[ndx]["minTemp"] = minT
                                 self._dailyForecast[ndx]["maxTemp"] = maxT
                             }
+                            if let weather = list[ndx]["weather"] as? [Dictionary<String,AnyObject>] {
+                                if let icon = weather[0]["icon"] as? String{
+                                    let newIcon = icon.stringByReplacingOccurrencesOfString("n", withString: "d")
+                                    self._dailyForecast[ndx]["icon"] = newIcon
+                                }
+                            }
+                        
                         }
                     }
                 }

@@ -22,6 +22,6 @@ let ALLOWED_CHAR_NSCS = NSCharacterSet(charactersInString: ALLOWED_CHAR)
 
 let LOC_UPDATE_NOTIF_KEY = "com.locationUpdateFromUserLocation"
 
-let SHADOW_COLOR: CGFloat = 157.0 / 255.0
+let SHADOW_COLOR: CGFloat = 88.0 / 255.0
 
 typealias DownloadComplete = () -> ()
